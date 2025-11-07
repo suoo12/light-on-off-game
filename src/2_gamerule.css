@@ -97,7 +97,7 @@ body {
 
 #backBtn {
     position: fixed;
-    top: 150px;
+    top: 140px;
     left: 290px;
     transform: translateX(-50%);
     z-index: 50;
