@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./src/1_game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gaegu&family=Gowun+Batang&family=Grandiflora+One&family=Imbue:opsz,wght@10..100,100..900&family=Nanum+Myeongjo&family=Pangolin&family=Smooch+Sans:wght@100..900&display=swap"
+        rel="stylesheet">
+    <title>LIGHT ON & OFF</title>
+</head>
+
+<body>
+
+    <div id="background">
+        <button id="backBtn"><a href="index.html">Back</a></button>
+        <div id="gamerule">조명을 켜서 유령을 찾으세요 !</div>
+        <div id="timer">TIME: 5.0s</div>
+
+        <div id="grid">
+            <div class="light off" data-idx="0"></div>
+            <div class="light off" data-idx="1"></div>
+            <div class="light off" data-idx="2"></div>
+            <div class="light off" data-idx="3"></div>
+            <div class="light off" data-idx="4"></div>
+            <div class="light off" data-idx="5"></div>
+            <div class="light off" data-idx="6"></div>
+            <div class="light off" data-idx="7"></div>
+            <div class="light off" data-idx="8"></div>
+        </div>
+
+        <div id="result"></div>
+
+        <div class="buttons">
+            <button id="start">START</button>
+            <button id="retry">RETRY</button>
+        </div>
+
+
+    </div>
+
+    <script type="module" src="./src/1_game.js"></script>
+</body>
+
+</html>
